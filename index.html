@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Clarice Kamil Peredo — Graphic Designer</title>
+
+  <link rel="stylesheet" href="styles/reset.css" />
+  <link rel="stylesheet" href="styles/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+
+  <!-- =====================
+       NAV
+  ===================== -->
+  <nav>
+    <a href="#home" class="logo-link">
+      <span class="logo"></span>
+      
+    </a>
+
+    <button class="hamburger" id="hamburger" aria-label="Open menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#home"     onclick="closeMenu()">Home</a></li>
+      <li><a href="#about"    onclick="closeMenu()">About</a></li>
+      <li><a href="#projects" onclick="closeMenu()">Projects</a></li>
+      <li><a href="play.html" onclick="closeMenu()">Play</a></li>
+      <li><a href="#contact"  onclick="closeMenu()">Contact</a></li>
+    </ul>
+  </nav>
+
+
+  <!-- =====================
+       HERO
+  ===================== -->
+  <section id="home" class="hero">
+
+    <div class="hero-image">
+      <img
+        src="images/cks_face.jpg"
+        alt="Clarice Kamil Peredo portrait"
+        class="hero-face"
+      />
+    </div>
+
+    <div class="hero-copy">
+
+      <div class="availability">
+        <span class="availability-dot"></span>
+        Open for freelance
+      </div>
+
+      <div class="speech-bubble bubble-1">
+        Hi, I'm Clarice Kamil Peredo 👋
+      </div>
+
+      <div class="h1-wrapper">
+        <h1>Graphic Designer &amp; Visual Storyteller</h1>
+      </div>
+
+      <div class="h1-wrapper h1-wrapper-delay">
+        <h1>I design <em>thoughtful brand identities</em> and <em>visual systems</em> that turn ideas into <em>compelling stories</em>.</h1>
+      </div>
+
+      <a href="#projects" class="btn">View My Work</a>
+
+    </div>
+
+  </section>
+
+
+  <!-- =====================
+       ABOUT
+  ===================== -->
+  <section id="about" class="about-section">
+
+    <div class="about-section-label">About Me</div>
+
+    <div class="about-copy">
+      <h2>I'm a graphic designer passionate about creating visual experiences that tell stories and connect with people. My work spans branding, editorial design, and digital media.</h2>
+      <h2>I believe great design is the perfect balance between creativity and strategy. Every project is an opportunity to solve problems beautifully and make a meaningful impact.</h2>
+      <h2>When I'm not designing, you can find me hanging out with my friends, sketching in my notebook, or searching for design inspiration in everyday life.</h2>
+    </div>
+
+  </section>
+
+
+  <!-- =====================
+       PROJECTS
+  ===================== -->
+  <section id="projects" class="projects-section">
+
+    <div class="section-label">My Projects</div>
+
+    <div class="projects-grid">
+
+      <a href="okoloom.html" class="project-card-link">
+        <div class="project-card">
+          <img src="images/projects/okoloom/OKOLOOM_COVER.png" alt="OKOLOOM brand identity cover" />
+          <h3>OKOLOOM</h3>
+          <p>Brand Identity</p>
+        </div>
+      </a>
+
+      <a href="funny_bird.html" class="project-card-link">
+        <div class="project-card">
+          <img src="images/projects/funny_bird/fb_cover_02.png" alt="Funny Bird Radio brand identity cover" />
+          <h3>Funny Bird Radio</h3>
+          <p>Brand Identity Redesign</p>
+        </div>
+      </a>
+
+      <a href="daisys_pub.html" class="project-card-link">
+        <div class="project-card">
+          <img src="images/projects/daisys_pub/DAISYS_PUB_MENU_MOCKUP_01.png" alt="Daisy's Pub brand identity cover" />
+          <h3>Daisy's Pub</h3>
+          <p>Brand Identity</p>
+        </div>
+      </a>
+
+    </div>
+
+  </section>
+
+
+  <!-- =====================
+       CONTACT
+  ===================== -->
+  <section id="contact" class="contact-section">
+
+    <h2 class="contact-big">Let's make something<br /><em>great together.</em></h2>
+    <p class="contact-desc">Interested in collaborating or have a project in mind? I'd love to hear from you.</p>
+    <a href="mailto:ckurated27@gmail.com" class="contact-email">Get In Touch</a>
+
+  </section>
+
+
+  <!-- =====================
+       FOOTER
+  ===================== -->
+  <footer class="footer">
+    <div class="footer-content">
+      
+      <div class="footer-section">
+        <h4>Navigation</h4>
+        <ul class="footer-nav">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="play.html">Play</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-section">
+        <h4>Follow Me</h4>
+        <div class="social-links">
+          <a href="https://www.instagram.com/ckdesignstuff/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37"></path><circle cx="17.5" cy="6.5" r="1.5"></circle></svg>
+            Instagram
+          </a>
+          <a href="https://www.linkedin.com/in/clarice-kamil-peredo-217a45233/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+            LinkedIn
+          </a>
+          <a href="https://www.behance.net/claricekamil" target="_blank" rel="noopener noreferrer" aria-label="Behance">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5.5 2h13a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1h-13a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1"></path><circle cx="12" cy="9" r="2.5"></circle><path d="M9 14h6m-6 4h6"></path></svg>
+            Behance
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2026 Clarice Kamil Peredo. All rights reserved.</p>
+    </div>
+  </footer>
+
+
+  <!-- =====================
+       SCRIPTS
+  ===================== -->
+  <script>
+    const hamburger = document.getElementById('hamburger');
+    const navLinks  = document.getElementById('nav-links');
+
+    hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('open');
+      hamburger.classList.toggle('active');
+    });
+
+    function closeMenu() {
+      navLinks.classList.remove('open');
+      hamburger.classList.remove('active');
+    }
+  </script>
+  <script src="script.js?v=animations"></script>
+
+</body>
+</html>

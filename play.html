@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Play — Clarice Kamil Portfolio</title>
+
+  <link rel="stylesheet" href="styles/reset.css" />
+  <link rel="stylesheet" href="styles/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+
+  <!-- =====================
+       NAV
+  ===================== -->
+  <nav>
+    <a href="index.html#home" class="logo-link">
+      <span class="logo"></span>
+    </a>
+
+    <button class="hamburger" id="hamburger" aria-label="Open menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <ul class="nav-links" id="nav-links">
+      <li><a href="index.html#home" onclick="closeMenu()">Home</a></li>
+      <li><a href="index.html#about" onclick="closeMenu()">About</a></li>
+      <li><a href="index.html#projects" onclick="closeMenu()">Projects</a></li>
+      <li><a href="play.html" onclick="closeMenu()">Play</a></li>
+      <li><a href="index.html#contact" onclick="closeMenu()">Contact</a></li>
+    </ul>
+  </nav>
+
+
+  <!-- =====================
+       PLAYGROUND
+  ===================== -->
+  <main class="play-page">
+
+    <section class="play-intro">
+      <p class="play-kicker">Playground</p>
+      <h1>Visual experiments, posters, sketches, and one-off design explorations.</h1>
+      <p>A collection of personal work exploring colour, composition, typography, and visual storytelling.</p>
+    </section>
+
+    <section class="play-gallery" aria-label="Play gallery">
+      <article class="play-piece play-piece--large">
+        <img src="images/play_images/CK_FIBONACCI_SHIRT_FRONT_N_BACK.png" alt="CK- fibonacci shirt" />
+        <div class="play-piece-meta">
+          <h2> CK  Shirt</h2>
+          <p> A self-portrait exploring the intersection of mathematical beauty, 
+              thermal visualization, and human form. The design maps the Fibonacci 
+              spiral (golden ratio φ = 1.618) onto infrared body heat data, 
+              creating a wearable piece of data visualization.
+              <br/>
+              Front: CK logo in liquid chrome gradient
+              Back: Full thermal scan with geometric overlay, technical annotations, 
+              and temperature scale
+              <br/>
+              Custom oversized cotton tee, DTG print. One of one.
+              <br/>
+              Design: Affinity Photo </p>
+        </div>
+      </article>
+
+      <article class="play-piece play-piece--tall">
+        <img src="images/play_images/ck_fibonacci_design.png" alt="CK- fibonacci shirt back" />
+        <div class="play-piece-meta">
+          <h2>The design on the back of my CK Fibonacci shirt</h2>
+          <p class="large-text"> This is the design of the back of the "CK Fibonacci" shirt</p>
+        </div>
+      </article>
+
+      <article class="play-piece play-piece--tall">
+        <img src="images/play_images/am-i-real-novel-mockup.png" alt="Am I Real? novel mockup" />
+        <div class="play-piece-meta">
+          <h2>Cover</h2>
+          <p>Visual direction</p>
+        </div>
+      </article>
+
+      <article class="play-piece play-piece--wide">
+        <img src="images/play_images/reggie_the_racoon.png" alt="Reggie the Raccoon" />
+        <div class="play-piece-meta">
+          <h2>Brooklyn Nets Mascot Design</h2>
+          <p>Made this for an assignment when i was in BCIT</p>
+        </div>
+      </article>
+    </section>
+
+  </main>
+
+
+   <!-- =====================
+       FOOTER
+  ===================== -->
+  <footer class="footer">
+    <div class="footer-content">
+      
+      <div class="footer-section">
+        <h4>Navigation</h4>
+        <ul class="footer-nav">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="play.html">Play</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-section">
+        <h4>Follow Me</h4>
+        <div class="social-links">
+          <a href="https://www.instagram.com/ckdesignstuff/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37"></path><circle cx="17.5" cy="6.5" r="1.5"></circle></svg>
+            Instagram
+          </a>
+          <a href="https://www.linkedin.com/in/clarice-kamil-peredo-217a45233/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+            LinkedIn
+          </a>
+          <a href="https://www.behance.net/claricekamil" target="_blank" rel="noopener noreferrer" aria-label="Behance">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5.5 2h13a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1h-13a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1"></path><circle cx="12" cy="9" r="2.5"></circle><path d="M9 14h6m-6 4h6"></path></svg>
+            Behance
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2026 Clarice Kamil Peredo. All rights reserved.</p>
+    </div>
+  </footer>
+
+
+  <script>
+    const hamburger = document.getElementById('hamburger');
+    const navLinks  = document.getElementById('nav-links');
+
+    hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('open');
+      hamburger.classList.toggle('active');
+    });
+
+    function closeMenu() {
+      navLinks.classList.remove('open');
+      hamburger.classList.remove('active');
+    }
+  </script>
+  <script src="script.js?v=animations"></script>
+
+</body>
+</html>
